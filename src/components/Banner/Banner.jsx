@@ -5,10 +5,9 @@ export const Banner = () => {
     <div class="banner">
       <div class="banner__stripe">
         <div class="container">
-          <h1>Template</h1>
+          <h1>Hotel Stříbrava</h1>
           <p class="lead">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus,
-            sequi.
+            Rodinný hotel v malebné krajině Českého středohoří.
           </p>
         </div>
       </div>
