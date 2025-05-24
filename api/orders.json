@@ -1,0 +1,37 @@
+[
+  {
+    "id": 0,
+    "email": "xpolyx@seznam.cz",
+    "phone": "123123",
+    "totalPrice": 5425,
+    "state": "new"
+  },
+  {
+    "id": 1,
+    "email": "xpolyx@seznam.cz",
+    "phone": "sdfasdf",
+    "totalPrice": 6737.5,
+    "state": "new"
+  },
+  {
+    "id": 2,
+    "email": "xpolyx@seznam.cz",
+    "phone": "asdfasdf",
+    "totalPrice": 6212.5,
+    "state": "new"
+  },
+  {
+    "id": 3,
+    "email": "xpolyx@seznam.cz",
+    "phone": "sdfsdf",
+    "totalPrice": 32062.5,
+    "state": "new"
+  },
+  {
+    "id": 4,
+    "email": "xpolyx@seznam.cz",
+    "phone": "sdfsdf",
+    "totalPrice": 33250,
+    "state": "new"
+  }
+]

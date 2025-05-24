@@ -12,7 +12,7 @@ export const Order = ({ selectedRoom }) => {
         </h2>
         <div className="columns-2">
           <RoomDetail room={selectedRoom} />
-          <OrderDetail />
+          <OrderDetail price={selectedRoom.price} />
         </div>
       </div>
     </section>
