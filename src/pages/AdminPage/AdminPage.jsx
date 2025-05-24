@@ -1,6 +1,6 @@
-import { AdminOrders } from "../../components/AdminOrders/AdminOrders";
-import "./AdminPage.css";
-import { useState, useEffect } from "react";
+import { AdminOrders } from '../../components/AdminOrders/AdminOrders';
+import './AdminPage.css';
+import { useState, useEffect } from 'react';
 
 export const AdminPage = (props) => {
   const [orders, setOrders] = useState([]);
@@ -17,7 +17,7 @@ export const AdminPage = (props) => {
 
   return (
     <div className="admin-container">
-      <section className="admin-header">Administrace</section>
+      <section>Administrace</section>
       <AdminOrders orders={orders} />
     </div>
   );

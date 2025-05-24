@@ -9,11 +9,27 @@
 
 .admin-header {
   display: grid;
-  grid-template-columns: 1fr 2fr 2fr 1fr 1fr;
+  grid-template-columns: 1fr 2fr 2fr 3fr 1fr;
   width: 100%;
   align-items: center;
   gap: 1rem;
   padding: 0.75rem;
   border-radius: 6px;
   background-color: #131E2A;
+}
+
+/* @media screen and (max-width: 740px) {
+  .admin-header {
+    grid-template-columns: 2fr 3fr 3fr 4fr 2fr;
+    display:grid;
+    
+  }
+} */
+
+@media screen and (max-width:740px) {
+
+
+  .admin-header {
+    display: none;
+  }
 }

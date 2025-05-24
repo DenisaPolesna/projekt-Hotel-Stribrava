@@ -17,3 +17,59 @@
 .field-input {
   width: max-content;
 }
+
+/* @media screen and (max-width: 740px) {
+  .order-item {
+    grid-template-columns: 2fr 3fr 3fr 4fr 2fr;
+    display: grid;
+    width: 100%;
+    min-width: 20vh;
+
+  }
+} */
+@media (max-width: 740px) {
+  .order-item {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* stack all */
+    row-gap: 8px;
+  }
+
+  .order-item>div {
+
+    flex: 1 1 100%;
+    /* full width on mobile */
+
+  }
+
+  .order-item>div:nth-child(1)::before {
+    content: "ID: ";
+    font-weight: bold;
+    margin-right: 6px;
+  }
+
+  .order-item>div:nth-child(2)::before {
+    content: "Status: ";
+    font-weight: bold;
+    margin-right: 6px;
+  }
+
+  .order-item>div:nth-child(3)::before {
+    content: "Price: ";
+    font-weight: bold;
+    margin-right: 6px;
+  }
+
+  .order-item>div:nth-child(4)::before {
+    content: "Email: ";
+    font-weight: bold;
+    margin-right: 6px;
+  }
+
+  .order-item>div:nth-child(5)::before {
+    content: "Phone: ";
+    font-weight: bold;
+    margin-right: 6px;
+  }
+
+}
