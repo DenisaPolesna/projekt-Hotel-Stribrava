@@ -6,7 +6,9 @@ export const AdminPage = (props) => {
   const [orders, setOrders] = useState([]);
   useEffect(() => {
     const fetchOrders = async () => {
-      const response = await fetch(`http://localhost:4000/api/orders`);
+      const response = await fetch(
+        `http://localhost:4000/api/orders?filter=status:eq:new`,
+      );
       const json = await response.json();
       setOrders(json.data);
     };
