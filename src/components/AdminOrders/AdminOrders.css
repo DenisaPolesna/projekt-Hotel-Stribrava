@@ -1,8 +1,19 @@
 .admin-orders {
-  background-color: white;
-  width: 100%;
-  color: #131E2A;
   display: flex;
   flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem;
+  width: 100%;
+}
+
+
+.admin-header {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 1fr 1fr;
+  width: 100%;
   align-items: center;
+  gap: 1rem;
+  padding: 0.75rem;
+  border-radius: 6px;
+  background-color: #131E2A;
 }

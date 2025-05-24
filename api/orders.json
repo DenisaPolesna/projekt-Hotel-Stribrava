@@ -11,7 +11,7 @@
     "email": "xpolyx@seznam.cz",
     "phone": "sdfasdf",
     "totalPrice": 6737.5,
-    "status": "new"
+    "status": "approved"
   },
   {
     "id": 2,
@@ -25,13 +25,34 @@
     "email": "xpolyx@seznam.cz",
     "phone": "sdfsdf",
     "totalPrice": 32062.5,
-    "status": "new"
+    "status": "approved"
   },
   {
     "id": 4,
     "email": "xpolyx@seznam.cz",
     "phone": "sdfsdf",
     "totalPrice": 33250,
+    "status": "approved"
+  },
+  {
+    "id": 5,
+    "email": "xpolyx@seznam.cz",
+    "phone": "sdfsdf",
+    "totalPrice": -4312.5,
+    "status": "approved"
+  },
+  {
+    "id": 6,
+    "email": "polesnadenisa@gmail.com",
+    "phone": "sdfsdf",
+    "totalPrice": 23100,
+    "status": "new"
+  },
+  {
+    "id": 7,
+    "email": "xpolyx@seznam.cz",
+    "phone": "234234",
+    "totalPrice": 9900,
     "status": "new"
   }
 ]

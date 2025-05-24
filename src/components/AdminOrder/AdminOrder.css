@@ -1,10 +1,19 @@
 .order-item {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 3fr 1fr;
+  align-items: center;
   gap: 1rem;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background-color: #131E2A;
 }
 
 .order-item:hover {
   background-color: #131E2A;
   color: white;
+}
+
+.field-input {
+  width: max-content;
 }

@@ -31,7 +31,7 @@ export const AdminOrder = ({ order }) => {
 
   return (
     <div className="order-item">
-      <div className="item"> {order.id}</div>
+      <div className="item">{order.id}</div>
       <select
         id="select"
         className="field-input"
