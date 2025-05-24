@@ -1,4 +1,22 @@
-import "./AdminPage";
+import { AdminOrders } from "../../components/AdminOrders/AdminOrders";
+import "./AdminPage.css";
+import { useState, useEffect } from "react";
+
 export const AdminPage = (props) => {
-  return <div>ADMIn</div>;
+  const [orders, setOrders] = useState([]);
+  useEffect(() => {
+    const fetchOrders = async () => {
+      const response = await fetch(`http://localhost:4000/api/orders`);
+      const json = await response.json();
+      setOrders(json.data);
+    };
+    fetchOrders();
+  }, []);
+
+  return (
+    <div className="admin-container">
+      <section className="admin-header">Administrace</section>
+      <AdminOrders orders={orders} />
+    </div>
+  );
 };

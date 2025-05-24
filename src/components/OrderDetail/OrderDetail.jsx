@@ -26,7 +26,7 @@ export const OrderDetail = ({ price }) => {
         email: email,
         phone: phone,
         totalPrice: totalPrice,
-        state: "new",
+        status: "new",
       }),
     });
 

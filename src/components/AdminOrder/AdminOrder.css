@@ -1,0 +1,10 @@
+.order-item {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.order-item:hover {
+  background-color: #131E2A;
+  color: white;
+}
