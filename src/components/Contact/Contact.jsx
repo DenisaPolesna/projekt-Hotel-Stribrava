@@ -2,7 +2,7 @@ import "./Contact.css";
 
 export const Contact = (props) => {
   return (
-    <div class="columns">
+    <div className="columns">
       <h2>Heading</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus

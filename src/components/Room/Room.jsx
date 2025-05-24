@@ -1,11 +1,18 @@
 import "./Room.css";
 
-export const Room = () => {
+export const Room = ({ img, price, name, onRoomSelect, desc }) => {
+  const handleOnClick = () => {
+    onRoomSelect({ img: img, desc: desc, price: price, name: name });
+  };
   return (
-    <div class="card">
-      <img class="card__image" src="img/image1.svg" />
-      <div class="card__title">Card 1</div>
-      <div class="card__body">Sunt natus</div>
+    <div className="card">
+      <img
+        onClick={handleOnClick}
+        className="card__image"
+        src={`http://localhost:4000/assets/${img}`}
+      />
+      <div className="card__title">{name}</div>
+      <div className="card__body">{price} kč na osobu</div>
     </div>
   );
 };

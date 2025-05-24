@@ -4,8 +4,8 @@ import { Map } from "../Map/Map";
 
 export const ContactSection = (props) => {
   return (
-    <section class="dark">
-      <div class="container columns-2">
+    <section className="dark">
+      <div className="container columns-2">
         <Contact />
         <Map />
       </div>
